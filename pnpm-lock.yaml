@@ -16,6 +16,41 @@ importers:
       prettier-plugin-tailwindcss: 0.1.13_prettier@2.8.4
       turbo: 1.8.3
 
+  apps/app:
+    specifiers:
+      '@iconify/react': ^4.1.0
+      '@types/node': ^18.11.17
+      '@types/react': ^18.0.26
+      '@types/react-dom': ^18.0.9
+      autoprefixer: ^10.4.13
+      eslint-config-custom: workspace:*
+      next: latest
+      postcss: ^8.4.20
+      react: ^18.2.0
+      react-dom: ^18.2.0
+      tailwind-config: workspace:*
+      tailwindcss: ^3.2.4
+      tsconfig: workspace:*
+      typescript: ^4.9.4
+      ui: workspace:*
+    dependencies:
+      '@iconify/react': 4.1.0_react@18.2.0
+      next: 13.2.3_biqbaboplfbrettd7655fr4n2y
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      ui: link:../../packages/ui
+    devDependencies:
+      '@types/node': 18.14.6
+      '@types/react': 18.0.28
+      '@types/react-dom': 18.0.11
+      autoprefixer: 10.4.13_postcss@8.4.21
+      eslint-config-custom: link:../../packages/eslint-config-custom
+      postcss: 8.4.21
+      tailwind-config: link:../../packages/tailwind-config
+      tailwindcss: 3.2.7_postcss@8.4.21
+      tsconfig: link:../../packages/tsconfig
+      typescript: 4.9.5
+
   apps/docs:
     specifiers:
       '@types/node': ^18.11.17
@@ -377,6 +412,19 @@ packages:
 
   /@humanwhocodes/object-schema/1.2.1:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
+
+  /@iconify/react/4.1.0_react@18.2.0:
+    resolution: {integrity: sha512-Mf72i3TNNKpKCKxmo7kzqyrUdCgaoljpqtWmtqpqwyxoV4ukhnDsSRNLhf2yBnqGr3cVZsdj/i0FMpXIY0Qk0g==}
+    peerDependencies:
+      react: '>=16'
+    dependencies:
+      '@iconify/types': 2.0.0
+      react: 18.2.0
+    dev: false
+
+  /@iconify/types/2.0.0:
+    resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
+    dev: false
 
   /@next/env/13.2.3:
     resolution: {integrity: sha512-FN50r/E+b8wuqyRjmGaqvqNDuWBWYWQiigfZ50KnSFH0f+AMQQyaZl+Zm2+CIpKk0fL9QxhLxOpTVA3xFHgFow==}
