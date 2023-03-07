@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
+import { Projects } from "../components/Projects";
 
 export default function Home() {
   return (
@@ -9,9 +10,10 @@ export default function Home() {
         <title>Tittoh | Micro Frontends</title>
       </Head>
 
-      <main className="w-full min-h-screen">
+      <main className="w-full min-h-screen bg-slate-50">
         <Navbar />
         <Hero />
+        <Projects />
       </main>
     </>
   );
