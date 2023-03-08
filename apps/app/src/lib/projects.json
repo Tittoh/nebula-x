@@ -5,7 +5,7 @@
     "url": "#",
     "preview":"/projects/docs.jpg",
     "description": "lorem ipsum dolor sit amet",
-    "repository": "https://github.com/tittoh/nebula-x/apps/docs",
+    "repository": "https://github.com/tittoh/nebula-x/tree/main/apps/docs",
     "tags": ["Docs", "Landing Page"]
   },
   {
@@ -14,7 +14,7 @@
     "url": "#",
     "preview":"/projects/docs.jpg",
     "description": "lorem ipsum dolor sit amet",
-    "repository": "https://github.com/tittoh/nebula-x/apps/web",
+    "repository": "https://github.com/tittoh/nebula-x/tree/main/apps/web",
     "tags": ["Docs", "Landing Page"]
   }
 ]

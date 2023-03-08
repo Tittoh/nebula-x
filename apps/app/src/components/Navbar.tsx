@@ -8,7 +8,7 @@ export default function Navbar() {
         <div className="flex flex-wrap items-center justify-between">
           <div className="flex lg:flex-1">
             <a href="#" className="relative flex items-center w-10 h-10">
-              <Image src={'/alt-logo.svg'} fill alt='Logo' />
+              <Image src={'/logo.svg'} fill alt='Logo' />
             </a>
           </div>
           <div className="flex gap-x-6 justify-end">
@@ -17,7 +17,7 @@ export default function Navbar() {
               className="text-sm font-semibold leading-6"
             >
               <Icon
-                className="w-6 h-6 text-gray-900"
+                className="w-6 h-6 text-gray-100"
                 icon="simple-icons:github"
                 aria-hidden="true"
               />

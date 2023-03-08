@@ -10,7 +10,7 @@ export default function Home() {
         <title>Tittoh | Micro Frontends</title>
       </Head>
 
-      <main className="w-full min-h-screen bg-slate-50">
+      <main className="w-full min-h-screen">
         <Navbar />
         <Hero />
         <Projects />

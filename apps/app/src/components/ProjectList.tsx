@@ -11,7 +11,6 @@ export function ProjectList({ clickAction, projects }: any) {
             {...project}
             clickAction={clickAction}
             key={project.id}
-            fullWH
           />
         )
       )}
